@@ -14,9 +14,9 @@ def run():
     Run the crew.
     """
     inputs = {
-        "ticker_symbol": "AAPL",
-        "company_name": "Apple Inc.",
-        "analysis_period": "Q1 2025",
+        "ticker_symbol": "<ticker_symbol>",
+        "company_name": "<company_name>",
+        "analysis_period": "<analysis_period>",
     }
     StockAnalysisCrew().crew().kickoff(inputs=inputs)
 
